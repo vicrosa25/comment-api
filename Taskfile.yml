@@ -16,3 +16,6 @@ tasks:
   run:
     cmds:
       - docker compose up --build
+  clean:
+    cmds:
+      - docker compose down
